@@ -4,7 +4,6 @@
   "description": "CachedImage component for react-native",
   "main": "index.js",
   "scripts": {
-    "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
@@ -49,6 +48,9 @@
   ],
   "typings": "./index.d.ts",
   "dependencies": {
+    "@react-native-community/netinfo": "^5.8.1",
+    "react": "16.8.6",
+    "react-native": "0.60.6",
     "crypto-js": "3.1.9-1",
     "lodash": "4.17.4",
     "prop-types": "15.5.10",
@@ -64,9 +66,6 @@
     "eslint": "^6.4.0",
     "jest": "^24.9.0",
     "babel-preset-env": "*",
-    "react": "16.8.6",
-    "react-native": "0.60.6",
-    "regenerator-runtime": "^0.11.0",
     "metro-react-native-babel-preset": "^0.56.0",
     "react-test-renderer": "16.8.6"
   }
